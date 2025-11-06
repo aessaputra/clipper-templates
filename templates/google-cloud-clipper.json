@@ -1,0 +1,58 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Google Cloud Documentation",
+	"behavior": "create",
+	"noteNameFormat": "{{title}}",
+	"path": "Clippings",
+	"noteContentFormat": "{{content}}",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author|wikilink}}",
+			"type": "multitext"
+		},
+		{
+			"name": "url",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "description",
+			"value": "{{description}}",
+			"type": "text"
+		},
+		{
+			"name": "domain",
+			"value": "{{domain}}",
+			"type": "text"
+		},
+		{
+			"name": "words",
+			"value": "{{words}}",
+			"type": "number"
+		},
+		{
+			"name": "site",
+			"value": "{{site}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "google-cloud, gcp, terraform",
+			"type": "multitext"
+		}
+	],
+	"triggers": [
+		"https://docs.cloud.google.com/"
+	]
+}
